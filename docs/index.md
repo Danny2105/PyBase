@@ -1,7 +1,5 @@
 # Home
 
-![PyBase Logo](/images/pybase-logo-no_bg.png)
-
 PyBase is a DataBase Manager for JSON, YAML and SQLite.
 
 It's focused on the ease and effectiveness for the administration of databases.

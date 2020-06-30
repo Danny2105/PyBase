@@ -1,7 +1,5 @@
 # Getting Started
 
-![PyBase Logo](/images/pybase-logo-no_bg.png)
-
 This is a short introduction to PyBase that contains
 installation and a sample code (you can also see it in GH).
 
