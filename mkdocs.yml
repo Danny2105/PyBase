@@ -1,0 +1,42 @@
+#- Site conrig -------------------------------------------------------------------
+site_name: PyBase | Docs
+site_url: https://ntbbloodbath.github.io/PyBase
+site_description: >-
+  PyBase Docs | PyBase is a DataBase Manager for JSON, YAML and SQLite.
+  It's focused on the ease and effectiveness for the administration of databases.
+site_author: NTBBloodbath
+copyright: Copyright © 2020 NTBBloodbath. PyBase is under MIT License.
+use_directory_urls: true
+
+#- Repository config -------------------------------------------------------------
+repo_url: https://github.com/NTBBloodbath/PyBase
+
+#- Docs config -------------------------------------------------------------------
+theme:
+  name: material
+  logo: images/pybase-logo-square.png
+  language: en
+  palette:
+    scheme: preference
+    primary: indigo
+    accent: yellow
+  features:
+    - instant
+    - tabs
+
+
+plugins:
+  - search
+  - git-revision-date-localized
+  - awesome-pages
+
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+
+extra:
+  version: 0.1.0
