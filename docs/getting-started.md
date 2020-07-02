@@ -3,7 +3,7 @@
 This is a short introduction to PyBase that contains
 installation and a sample code (you can also see it in GH).
 
-> **Current PyBase version and status:** (**v0.1.0 - Beta**).
+> **Current PyBase version and status:** (**v0.1.1 - Beta**).
 
 ------
 
@@ -23,7 +23,7 @@ With the example extracted from GH, we can do the following.
 ```py
 #-------------- Importing PyBase Class ---------------------------------------
 # Lets import PyBase Class from PyBase Package
-from pybase_db import PyBase
+from pybase import PyBase
 #
 #-------------- Initializing PyBase ------------------------------------------
 # Lets define our database name and format (with default db_path).
